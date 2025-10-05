@@ -1,7 +1,7 @@
 import bpy
 import mathutils
-from utils.mesh import create_mesh_from_pydata
-from utils.modifier import add_subdivision_surface_modifier
+from oldutils.mesh import create_mesh_from_pydata
+from oldutils.modifier import add_subdivision_surface_modifier
 from typing import Any, Dict, Iterable, List, Tuple
 
 

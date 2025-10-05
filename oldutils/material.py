@@ -1,6 +1,6 @@
 import bpy
 from typing import Tuple
-from utils.node import set_socket_value_range, arrange_nodes, create_frame_node, clean_nodes
+from oldutils.node import set_socket_value_range, arrange_nodes, create_frame_node, clean_nodes
 
 
 def create_texture_node(node_tree: bpy.types.NodeTree, path: str, is_color_data: bool) -> bpy.types.Node:

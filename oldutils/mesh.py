@@ -1,7 +1,7 @@
 import bpy
 import math
 from typing import Tuple, Iterable, Optional, Sequence
-from utils.modifier import add_subdivision_surface_modifier
+from oldutils.modifier import add_subdivision_surface_modifier
 
 
 def set_smooth_shading(mesh: bpy.types.Mesh) -> None:
